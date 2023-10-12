@@ -22,8 +22,8 @@ link_directories(/usr/local/cuda/lib64)
 
 # tensorrt
 
-include_directories(/home/xxx/data/softwares/trt/TensorRT-8.2.1.8.Linux.x86_64-gnu.cuda-10.2.cudnn8.2/TensorRT-8.2.1.8/include)
-link_directories(/home/xxx/data/softwares/trt/TensorRT-8.2.1.8.Linux.x86_64-gnu.cuda-10.2.cudnn8.2/TensorRT-8.2.1.8/lib)
+include_directories(/home/zhenghu/Downloads/TensorRT-8.5.1.7.Linux.x86_64-gnu.cuda-11.8.cudnn8.6/TensorRT-8.5.1.7/include)
+link_directories(/home/zhenghu/Downloads/TensorRT-8.5.1.7.Linux.x86_64-gnu.cuda-11.8.cudnn8.6/TensorRT-8.5.1.7/lib)
 
 
 #cnpy

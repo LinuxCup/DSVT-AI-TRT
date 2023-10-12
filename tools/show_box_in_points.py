@@ -88,7 +88,7 @@ def txt2json_dict(data):
 def show():
 
     txt_path_prefix = '../data/outputs/'
-    bin_root_ = '../data/bin/*.bin'
+    bin_root_ = '../data/bin_zhito/*.bin'
     fig = mlab.figure(figure=None, bgcolor=(0, 0, 0),
                       fgcolor=None, engine=None, size=(1000, 600))
     bin_paths = glob.glob(bin_root_)

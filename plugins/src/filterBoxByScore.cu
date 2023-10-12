@@ -357,7 +357,7 @@ int FilterBoxByScorePlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc,
 
     // init output
     unsigned int output_box_preds_data_size = batchSize * max_top_k_ * LAST_DIMS * sizeof(float);
-    checkCudaErrors(cudaMemsetAsync(output_box_preds, 0, output_box_preds_data_size, stream));
+    // checkCudaErrors(cudaMemsetAsync(output_box_preds, 0, output_box_preds_data_size, stream));
 
     // unsigned int output_class_id_preds_size = batchSize * max_top_k_ * 1 * sizeof(float);
     // checkCudaErrors(cudaMemsetAsync(output_class_id_preds, 0, output_class_id_preds_size, stream));
